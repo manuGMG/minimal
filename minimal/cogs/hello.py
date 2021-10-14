@@ -2,6 +2,7 @@ import aiohttp
 from discord.ext import commands
 
 # Quick cog example
+# github.com/manuGMG/minimal
 
 class Hello(commands.Cog, name='Hello'):
     @commands.command(name='hello', description='Sends hello world')
