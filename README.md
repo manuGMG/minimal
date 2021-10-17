@@ -19,9 +19,9 @@ After the first run, `config.json` will get created in the `/minimal` directory 
         ]
     }
 
-Cogs can be added by copying them to the `cogs` folder and then loading them from Discord. For example, the music cog can be added by moving it from `minimal-cogs` to `minimal/cogs`, and then by running this command from Discord:
+Cogs can be added by copying them to the `cogs` folder and then loading them from Discord. For example, the music cog can be added by running this Discord command:
 
-    min cog load music
+    min cog load examples.music
 
 Cogs can also be reloaded, unloaded and listed.
 
@@ -34,10 +34,10 @@ This functionality is provided by `owner.py`, so `owner` cog should not be unloa
 # Example cogs
 Some cogs are provided as an example.
 
-### hello
+### examples.hello
 * **description**: An example cog.
 * **dependencies**: none.
 
-### music
+### examples.music
 * **description**: Minimal 85 SLOC music cog. **Requires** `ffmpeg` installed and on path.
 * **dependencies:** `pynacl`, `youtube_dl`.
